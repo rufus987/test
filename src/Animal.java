@@ -17,6 +17,7 @@ public class Animal {
 
         cat1.run(cat1.name, cat1.runDistance);
         cat1.swim(cat1.name, cat1.swimDistance);
+        cat2.run(cat2.name, cat2.runDistance);
     }
     public void run(String name, int runDistance){
         System.out.printf("%s пробежал %d м\n", name, runDistance);
